@@ -9,6 +9,8 @@
   --pink: #dd33dd;
 }
 
+
+
 *{
   margin: 0;
   padding: 0;
@@ -31,6 +33,7 @@ body{
 }
 
 header{
+  width: 100vw;
   height: 80px;
   background-color: var(--black);
   display: flex;
@@ -58,6 +61,7 @@ header img{
 }
 
 #menu{
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
@@ -217,6 +221,7 @@ header img{
 
 
 #numbers{
+  flex-direction: column;
   width: 100%;
   height: 300px;
   display: flex;
@@ -251,7 +256,7 @@ header img{
 
 #talk-to-us{
   width: 100%;
-  height: 350px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -301,6 +306,7 @@ header img{
 
 
 footer{
+
   width: 100%;
   background-color: rgb(19, 19, 19);
   display: flex;
